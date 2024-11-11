@@ -1,0 +1,192 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+$main-blue:#2982e9;
+$btn-yellow:#e5850f;
+
+$family-title:"Fjalla One", sans-serif;
+$family-p:sans-serif;
+$fs-p:15px;
+$fs-btn:12px;
+$fw-1:100;
+$line-h:25px;
+
+.container{
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-banner{
+  text-align: center;
+  padding: 245px 0;
+  color:rgb(208, 208, 198);
+  background: url(https://i.pinimg.com/originals/e3/ad/a0/e3ada0bfc77674d5b2351ed716611171.png) rgba(30, 29, 30, 0.65);
+  background-blend-mode: overlay;
+  background-position: top;
+  background-size:cover;
+   
+    .title{
+      font-size: 37px;
+      text-transform: capitalize;
+      font-family: $family-title;
+      margin-bottom: 5px;
+      font-weight: $fw-1;
+    }
+
+    .para{
+      font-size:$fs-p;
+      font-family: $family-p;
+      line-height:$line-h;
+      margin-bottom: 15px;
+      max-width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+      color:lightgray;
+    }
+  
+    .btn-blue{
+      color:white;
+      padding:10px 34px;
+      text-decoration: none;
+      font-family: $family-title;
+      font-weight: $fw-1;
+      text-transform: uppercase;
+      text-align: center;
+      border-radius:5px;
+      font-size:$fs-btn;
+      letter-spacing: 3px;
+      display: inline-block;
+      background-color:$main-blue;
+      border:2px solid $main-blue;
+    
+      &:hover{
+        border:2px solid white;
+        background-color:transparent;
+      }
+    }
+}
+
+.welcome{
+  padding:50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+
+  .parent-flex{
+    display: flex;
+    gap:15px;
+
+    .left{
+      width: 50%;
+      height: 280px;
+      background: url(https://i.pinimg.com/originals/e3/ad/a0/e3ada0bfc77674d5b2351ed716611171.png) rgba(0,0,0, 0.2);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-size:cover;
+    }
+
+    .right{
+      width: 50%;
+
+      .title{
+        font-size:22px;
+        text-transform: capitalize;
+        font-family: $family-title;
+        font-weight: $fw-1;
+        margin-bottom: 10px;
+      }
+
+      .para{
+        font-size:$fs-p;
+        font-family: $family-p;
+        line-height:$line-h;
+        margin-bottom: 15px;
+        color:darkgray;
+      }
+
+      .line-button{
+        width: 40px;
+        border-bottom:2px solid $main-blue;
+        margin:20px 0;
+      }
+
+      .btn-blue-white{
+        padding:10px 10px;
+        color:white;
+        text-decoration: none;
+        font-family: $family-title;
+        font-weight: $fw-1;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius:5px;
+        font-size:$fs-btn;
+        letter-spacing:3px;
+        display: inline-block;
+        background-color:$main-blue;
+        border:2px solid $main-blue;
+      
+        &:hover{
+          border:2px solid $main-blue;
+          background-color: white;
+          color:$main-blue;
+        }
+      }
+    }
+  }
+}
+
+.small-banner{
+  color: white;
+  background: url(https://i.pinimg.com/originals/e3/ad/a0/e3ada0bfc77674d5b2351ed716611171.png);
+  background-position: center;
+  background-size:cover;
+  text-align: center;
+
+  .bg{
+    background-color: rgba(39, 128, 229, 0.85);
+    padding:45px 0px;
+  }
+
+    .title{
+      font-size: 25px;
+      text-transform: capitalize;
+      font-family:  $family-title;
+      margin-bottom: 10px;
+      font-weight: $fw-1;
+    }
+
+    .para{
+      font-size:$fs-p;
+      font-family:$family-p;
+      line-height:$line-h;
+      margin-bottom: 15px;
+      color:lightgray;
+    }
+
+    .btn-yellow{
+      padding:10px 30px;
+      color:white;
+      background-color: $btn-yellow;
+      border:2px solid  $btn-yellow;
+      text-decoration: none;
+      font-family: $family-title;
+      font-weight: $fw-1;
+      text-transform: uppercase;
+      text-align: center;
+      border-radius:5px;
+      font-size:$fs-btn;
+      letter-spacing: 3px;
+      display: inline-block;
+  
+      &:hover{
+        border:2px solid $btn-yellow;
+        background-color: white;
+        color:$main-blue;
+      }
+    }
+}

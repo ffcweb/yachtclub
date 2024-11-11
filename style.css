@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-banner {
+  text-align: center;
+  padding: 245px 0;
+  color: rgb(208, 208, 198);
+  background: url(https://i.pinimg.com/originals/e3/ad/a0/e3ada0bfc77674d5b2351ed716611171.png) rgba(30, 29, 30, 0.65);
+  background-blend-mode: overlay;
+  background-position: top;
+  background-size: cover;
+}
+.big-banner .title {
+  font-size: 37px;
+  text-transform: capitalize;
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+.big-banner .para {
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-bottom: 15px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: lightgray;
+}
+.big-banner .btn-blue {
+  color: white;
+  padding: 10px 34px;
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  display: inline-block;
+  background-color: #2982e9;
+  border: 2px solid #2982e9;
+}
+.big-banner .btn-blue:hover {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.welcome {
+  padding: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+.welcome .parent-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+.welcome .parent-flex .left {
+  width: 50%;
+  height: 280px;
+  background: url(https://i.pinimg.com/originals/e3/ad/a0/e3ada0bfc77674d5b2351ed716611171.png) rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+.welcome .parent-flex .right {
+  width: 50%;
+}
+.welcome .parent-flex .right .title {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.welcome .parent-flex .right .para {
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-bottom: 15px;
+  color: darkgray;
+}
+.welcome .parent-flex .right .line-button {
+  width: 40px;
+  border-bottom: 2px solid #2982e9;
+  margin: 20px 0;
+}
+.welcome .parent-flex .right .btn-blue-white {
+  padding: 10px 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  display: inline-block;
+  background-color: #2982e9;
+  border: 2px solid #2982e9;
+}
+.welcome .parent-flex .right .btn-blue-white:hover {
+  border: 2px solid #2982e9;
+  background-color: white;
+  color: #2982e9;
+}
+
+.small-banner {
+  color: white;
+  background: url(https://i.pinimg.com/originals/e3/ad/a0/e3ada0bfc77674d5b2351ed716611171.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.small-banner .bg {
+  background-color: rgba(39, 128, 229, 0.85);
+  padding: 45px 0px;
+}
+.small-banner .title {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.small-banner .para {
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-bottom: 15px;
+  color: lightgray;
+}
+.small-banner .btn-yellow {
+  padding: 10px 30px;
+  color: white;
+  background-color: #e5850f;
+  border: 2px solid #e5850f;
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  display: inline-block;
+}
+.small-banner .btn-yellow:hover {
+  border: 2px solid #e5850f;
+  background-color: white;
+  color: #2982e9;
+}
